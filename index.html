@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#241b1b" />
+  <title>To My Precious Mother</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <main class="page">
+    <section class="intro" id="intro">
+      <p class="eyebrow">A little something, made with love</p>
+      <h1>For the most precious person<br><em>in my world</em></h1>
+      <p class="intro-copy">A letter that travelled across the distance, just for you.</p>
+
+      <button class="envelope-button" id="openEnvelope" aria-label="Open your letter">
+        <span class="envelope" id="envelope">
+          <span class="letter-preview"><span>To my precious mother...</span></span>
+          <span class="envelope-back"></span>
+          <span class="envelope-front"></span>
+          <span class="envelope-flap"></span>
+          <span class="wax-seal">♡</span>
+        </span>
+      </button>
+      <p class="tap-hint" id="tapHint">Tap the seal to open your letter</p>
+    </section>
+
+    <section class="letter-section hidden" id="letterSection" aria-live="polite">
+      <article class="letter-paper">
+        <div class="paper-flower flower-one">✿</div>
+        <div class="paper-flower flower-two">❀</div>
+        <p class="letter-date">A letter from the heart</p>
+        <h2>To my precious mother...</h2>
+        <p class="salutation">My dearest Mom,</p>
+        <div class="letter-body" id="letterBody">
+          <p>I wish you could see yourself through my eyes, just for a moment. Maybe then you would understand how extraordinary you truly are.</p>
+          <p>You are one of the strongest women I have ever known. Life hasn't always been gentle with you, yet somehow, you keep going. Through every difficulty, every exhausting day, and every moment when you must miss home more than words can express, you continue to work, to care, and to smile. Even in a distant city, far away from the people you love, you carry so much responsibility on your shoulders. And you do it all with a strength that I sometimes don't know how to put into words.</p>
+          <p>But Mom, there is something I want you to remember...</p>
+          <p>You are living this life for the very first time, too. Before you became our mother, you were someone's little girl. You were once a little daughter, someone's precious princess, with your own dreams, wishes, and a whole lifetime waiting ahead of you.</p>
+          <p class="emphasis">Please don't forget that girl.</p>
+          <p>Please allow yourself to live, not just to work, sacrifice, and take care of everyone else. Laugh more. Travel. Discover beautiful places. Buy yourself flowers. Follow your dreams. Enjoy the little things. You deserve a life filled with happiness, not just a life spent making everyone else happy.</p>
+          <p>I know I am not always good at expressing my feelings. Sometimes I struggle to say how much I love you, and perhaps I don't show it as often as I should. But please never mistake my silence for a lack of love.</p>
+          <p>No matter how far apart we are, no matter where life takes us, I will always be by your side. You will always have me. My love for you has no limits, no conditions, and no distance.</p>
+          <p>And if life ever gets too heavy, I hope you remember that you don't always have to be strong. You are allowed to rest, to be vulnerable, to be taken care of, and simply to be happy.</p>
+          <p>I am so proud to be your daughter. And if I could choose my mother in a thousand different lifetimes, I would still choose you.</p>
+        </div>
+        <p class="signoff">With endless love,</p>
+        <p class="signature">Your daughter, Parvina <span>♡</span></p>
+        <div class="postscript">
+          <span class="ps-label">P.S.</span>
+          Mom, this little surprise is just a reminder that someone, somewhere, loves you more than words could ever explain.
+        </div>
+        <button class="surprise-button" id="showSurprise">I have one more little surprise for you <span>♡</span></button>
+      </article>
+    </section>
+
+    <section class="surprise-section hidden" id="surpriseSection">
+      <div class="floating-hearts" aria-hidden="true"></div>
+      <p class="eyebrow">A little gift, from me to you</p>
+      <h2>For the little princess<br><em>who deserves the whole world.</em></h2>
+      <div class="bear-scene" role="img" aria-label="A teddy bear holding a bouquet of flowers">
+        <div class="sparkle sparkle-a">✦</div><div class="sparkle sparkle-b">✧</div>
+        <div class="bear">
+          <div class="ear ear-left"></div><div class="ear ear-right"></div>
+          <div class="bear-head">
+            <div class="eye eye-left"></div><div class="eye eye-right"></div>
+            <div class="muzzle"><div class="nose"></div><div class="mouth"></div></div>
+            <div class="cheek cheek-left"></div><div class="cheek cheek-right"></div>
+          </div>
+          <div class="bear-body"></div>
+          <div class="arm arm-left"></div><div class="arm arm-right"></div>
+          <div class="leg leg-left"></div><div class="leg leg-right"></div>
+          <div class="heart-on-belly">♡</div>
+        </div>
+        <div class="bouquet">
+          <div class="stems"></div>
+          <div class="flower f1">✿</div><div class="flower f2">✿</div><div class="flower f3">✿</div>
+          <div class="flower f4">✿</div><div class="flower f5">✿</div>
+          <div class="bouquet-wrap"></div><div class="bow"></div>
+        </div>
+      </div>
+      <p class="final-message">I love you endlessly, Mom.</p>
+      <p class="final-small">No distance could ever change that. <span>♡</span></p>
+      <button class="again-button" id="readAgain">Read my letter again</button>
+    </section>
+
+    <footer>Made with all my love · Parvina</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
